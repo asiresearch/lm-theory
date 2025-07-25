@@ -4,7 +4,7 @@
 [![Project Page](https://img.shields.io/badge/Project-Page-blue.svg)](https://github.com/asiresearch/lm-theory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This repository contains the theoretical framework for the paper **"A Markov Categorical Framework for Language Modeling."**
+This repository is the projecet page of paper **"A Markov Categorical Framework for Language Modeling."**
 
 ## Abstract
 Auto-regressive language models are incredibly powerful, yet a deep theoretical understanding of *why* the simple negative log-likelihood (NLL) objective works so well remains elusive. This work introduces a unifying framework using **Markov Categories** to deconstruct the generation process and the NLL objective. We model the single-step generation map as a composition of Markov kernels, which allows us to precisely analyze information flow and the geometry of the learned representation space. Our core finding is that **NLL training is an implicit form of spectral contrastive learning**: it forces the model's representation space to align with the eigenspectrum of a predictive similarity operator, learning a geometrically structured space without explicit contrastive pairs. This perspective reveals the deep structural principles underlying the effectiveness of modern LMs.
